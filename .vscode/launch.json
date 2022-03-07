@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Server",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "org.apache.catalina.startup.Bootstrap",
+      "args": "start",
+      "projectName": "io.cronapp.apps.testea"
+    },
+    {
+      "type": "java",
+      "name": "SpringBootMain",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "SpringBootMain",
+      "projectName": "io.cronapp.apps.testea"
+    }
+  ]
+}
